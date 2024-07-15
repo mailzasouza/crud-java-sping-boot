@@ -1,5 +1,10 @@
 package com.primeiroprojeto.userdept.entities;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name = "tb_departament")
 public class Departament {
 	
 	private Long id;
